@@ -3,8 +3,10 @@ map k 10k
 
 set showstatus=1
 
-"set searchengines={"duck":"http://duckduckgo.com//?q={{keyword}}","google":"http://www.google.com/search?/q={{keyword}}","answers":"http://www.answers.com/main/ntquery?s={{keyword}}"}
-"set defaultsearch=duck
+"set up custom search engines
+set searchengines={"duck":"http://duckduckgo.com//?q={{keyword}}","google":"http://www.google.com/search?/q={{keyword}}","answers":"http://www.answers.com/main/ntquery?s={{keyword}}"}
+"default to duck, not sure if I need to specify this, but here goes nothing
+set defaultsearch=duck
 
 set useletters=1
 set hintkeys=jklhfdgsweui
