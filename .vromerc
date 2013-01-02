@@ -3,10 +3,8 @@ map k 10k
 
 set showstatus=1
 
-set searchengines={"duck":"http://duckduckgo.com//?q={{keyword}}"
-                  ,"google":"http://www.google.com/search?/q={{keyword}}"
-                  ,"answers":"http://www.answers.com/main/ntquery?s={{keyword}}"}
-set defaultsearch=duck
+"set searchengines={"duck":"http://duckduckgo.com//?q={{keyword}}","google":"http://www.google.com/search?/q={{keyword}}","answers":"http://www.answers.com/main/ntquery?s={{keyword}}"}
+"set defaultsearch=duck
 
 set useletters=1
 set hintkeys=jklhfdgsweui
