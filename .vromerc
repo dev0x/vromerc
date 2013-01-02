@@ -3,8 +3,10 @@ map k 10k
 
 set showstatus=1
 
-set searchengines={"duck":"http://duckduckgo.com/?={{keyword}}","google","http://www.google.com/search?/q={{keyword}}"}
+set searchengines={"duck":"http://duckduckgo.com//?q={{keyword}}","google","http://www.google.com/search?/q={{keyword}}"}
+set defaultsearch=duck
 
 set useletters=1
 set hintkeys=jklhfdgsweui
+
 
