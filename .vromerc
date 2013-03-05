@@ -3,10 +3,15 @@ map k 10k
 
 set showstatus=1
 
+"disable sites for better shortcuts
+set disablesites=mail.google.com, jht.ontimenow.com
+
+
+
 "set up custom search engines
 set searchengines={"duck":"http://duckduckgo.com/?q={{keyword}}","google":"http://www.google.com/search?/q={{keyword}}","answers":"http://www.answers.com/main/ntquery?s={{keyword}}"}
 "default to duckduckgo
-set defaultsearch=duck
+set defaultsearch=google
 
 set useletters=1
 set hintkeys=jklhfdgsweui
