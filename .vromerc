@@ -10,6 +10,10 @@ map l gt
 "delete a tab 
 map d D
 
+"remove stupid tab mapping
+unmap T
+"map it appropriately to O
+map <C-t> O
 
 set showstatus=1
 
