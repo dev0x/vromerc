@@ -1,10 +1,15 @@
 map j 10j
 map k 10k
 
+"Manipulate tabs
 map <C-j> gt
 map <C-k> gT
 map h gT
 map l gt
+
+"delete a tab 
+map d D
+
 
 set showstatus=1
 
@@ -25,5 +30,5 @@ set hintkeys=jklhfdgsweui
 begin_custom_css
 .__vim_hint_highlight_span {
 text-transform: uppercase;
-color: red
+color:  green
 }
