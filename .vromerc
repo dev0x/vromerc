@@ -11,10 +11,9 @@ map l gt
 map d D
 
 "remove stupid tab mapping
-unmap T
 unmap O
 "map it appropriately to O
-map <C-t> O
+map O <C-t>
 
 set showstatus=1
 
