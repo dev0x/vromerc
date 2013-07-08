@@ -1,14 +1,5 @@
 map j 10j
 map k 10k
 
-"Manipulate tabs
-map <C-j> gt
-map <C-k> gT
-map h gT
-map l gt
-
-"delete a tab 
-nmap d D
-
 set useletters=1
 set hintkeys=jklhfdgsweui
