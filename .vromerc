@@ -18,7 +18,7 @@ map O <C-t>
 set showstatus=1
 
 "disable sites for better shortcuts
-set disablesites=mail.google.com, jht.ontimenow.com
+set disablesites=mail.google.com
 
 
 
