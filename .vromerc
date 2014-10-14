@@ -1,5 +1,13 @@
+" jump around
 map j 10j
 map k 10k
 
 set useletters=1
 set hintkeys=jklhfdgsweui
+
+" set status line
+set showstatus=1
+
+" move tab
+map J gT
+map K gt
